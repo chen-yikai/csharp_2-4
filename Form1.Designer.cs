@@ -52,78 +52,85 @@
             // goTop
             // 
             this.goTop.Font = new System.Drawing.Font("新細明體", 16F);
-            this.goTop.Location = new System.Drawing.Point(138, 297);
+            this.goTop.Location = new System.Drawing.Point(116, 296);
             this.goTop.Name = "goTop";
             this.goTop.Size = new System.Drawing.Size(65, 46);
             this.goTop.TabIndex = 1;
             this.goTop.Text = "上";
             this.goTop.UseVisualStyleBackColor = true;
+            this.goTop.Click += new System.EventHandler(this.goTop_Click);
             // 
             // goRight
             // 
             this.goRight.Font = new System.Drawing.Font("新細明體", 16F);
-            this.goRight.Location = new System.Drawing.Point(209, 349);
+            this.goRight.Location = new System.Drawing.Point(187, 348);
             this.goRight.Name = "goRight";
             this.goRight.Size = new System.Drawing.Size(65, 46);
             this.goRight.TabIndex = 2;
             this.goRight.Text = "右";
             this.goRight.UseVisualStyleBackColor = true;
+            this.goRight.Click += new System.EventHandler(this.goRight_Click);
             // 
             // goLeft
             // 
             this.goLeft.Font = new System.Drawing.Font("新細明體", 16F);
-            this.goLeft.Location = new System.Drawing.Point(68, 349);
+            this.goLeft.Location = new System.Drawing.Point(46, 348);
             this.goLeft.Name = "goLeft";
             this.goLeft.Size = new System.Drawing.Size(65, 46);
             this.goLeft.TabIndex = 3;
             this.goLeft.Text = "左";
             this.goLeft.UseVisualStyleBackColor = true;
+            this.goLeft.Click += new System.EventHandler(this.goLeft_Click);
             // 
             // gotDown
             // 
             this.gotDown.Font = new System.Drawing.Font("新細明體", 16F);
-            this.gotDown.Location = new System.Drawing.Point(138, 400);
+            this.gotDown.Location = new System.Drawing.Point(116, 399);
             this.gotDown.Name = "gotDown";
             this.gotDown.Size = new System.Drawing.Size(65, 46);
             this.gotDown.TabIndex = 4;
             this.gotDown.Text = "下";
             this.gotDown.UseVisualStyleBackColor = true;
+            this.gotDown.Click += new System.EventHandler(this.gotDown_Click);
             // 
             // reset
             // 
             this.reset.Font = new System.Drawing.Font("新細明體", 16F);
-            this.reset.Location = new System.Drawing.Point(309, 346);
+            this.reset.Location = new System.Drawing.Point(287, 345);
             this.reset.Name = "reset";
             this.reset.Size = new System.Drawing.Size(152, 53);
             this.reset.TabIndex = 5;
             this.reset.Text = "表單左上角";
             this.reset.UseVisualStyleBackColor = true;
+            this.reset.Click += new System.EventHandler(this.reset_Click);
             // 
             // zoomOut
             // 
             this.zoomOut.Font = new System.Drawing.Font("新細明體", 16F);
-            this.zoomOut.Location = new System.Drawing.Point(502, 393);
+            this.zoomOut.Location = new System.Drawing.Point(480, 392);
             this.zoomOut.Name = "zoomOut";
             this.zoomOut.Size = new System.Drawing.Size(94, 53);
             this.zoomOut.TabIndex = 6;
             this.zoomOut.Text = "縮小";
             this.zoomOut.UseVisualStyleBackColor = true;
+            this.zoomOut.Click += new System.EventHandler(this.zoomOut_Click);
             // 
             // zoomIn
             // 
             this.zoomIn.Font = new System.Drawing.Font("新細明體", 16F);
-            this.zoomIn.Location = new System.Drawing.Point(502, 297);
+            this.zoomIn.Location = new System.Drawing.Point(480, 296);
             this.zoomIn.Name = "zoomIn";
             this.zoomIn.Size = new System.Drawing.Size(94, 53);
             this.zoomIn.TabIndex = 7;
             this.zoomIn.Text = "放大";
             this.zoomIn.UseVisualStyleBackColor = true;
+            this.zoomIn.Click += new System.EventHandler(this.zoomIn_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(803, 521);
+            this.ClientSize = new System.Drawing.Size(661, 495);
             this.Controls.Add(this.zoomIn);
             this.Controls.Add(this.zoomOut);
             this.Controls.Add(this.reset);
