@@ -61,12 +61,21 @@ namespace csharp_2_4
 
         private void zoomIn_Click(object sender, EventArgs e)
         {
-            picture.Size = new Size(picture.Width+10, picture.Height +10);
+            picture.Size = new Size(picture.Width + 10, picture.Height + 10);
+
+           
         }
 
         private void zoomOut_Click(object sender, EventArgs e)
         {
-            picture.Size = new Size(picture.Width - 10, picture.Height - 10);
+            if (picture.Size.Width < 50 || picture.Size.Height < 50)
+            {
+
+            }
+            else
+            {
+                picture.Size = new Size(picture.Width - 10, picture.Height - 10);
+            }
         }
     }
 }
